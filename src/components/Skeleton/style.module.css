@@ -1,0 +1,49 @@
+.skeleton {
+  display: flex;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.skeletonContainer {
+  width: 160px;
+  min-width: 160px;
+  margin-right: 24px;
+}
+
+.skeletonRounded {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+
+  background-color: #ddd;
+  animation: loading 1s infinite ease-in-out;
+}
+
+.skeletonInner {
+  width: 160px;
+  min-width: 160px;
+  margin-right: 24px;
+  height: 20px;
+  background-color: #ddd;
+  animation: loading 1s infinite ease-in-out;
+  border-radius: 4px;
+}
+
+@media (min-width: 640px) {
+  .skeletonInner, .skeletonContainer {
+    width: 200px;
+    min-width: 200px;
+  }
+}
+
+@keyframes loading {
+  0% {
+    background-color: #ddd;
+  }
+  50% {
+    background-color: #eee;
+  }
+  100% {
+    background-color: #ddd;
+  }
+}

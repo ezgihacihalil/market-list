@@ -1,0 +1,111 @@
+.header {
+  height: 80px;
+  padding: 8px 24px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: hsla(0,0%,100%,.8);
+  backdrop-filter: blur(1px);
+}
+
+.logo {
+  height: 20px;
+  width: 125px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bar {
+  background-color: #000;
+  height: 2px;
+  display: block;
+  border-radius: 4px;
+}
+
+.bar:first-child {
+  width: 19px;
+}
+
+.bar:nth-child(2) {
+  width: 24px;
+  margin: 4px 0;
+}
+
+.bar:last-child {
+  width: 14px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+}
+
+.nav {
+  flex: 1 1 0%;
+  margin: 0 96px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.extraRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.loginButton {
+  font-size: 14px;
+}
+
+.signUpButton {
+  display: flex;
+  align-items: center;
+  background-color: #0051ff;
+  box-shadow:  0 1px 3px 0 #0051ff,0 1px 2px -1px rgba(0,0,0,.1);
+  font-size: 14px;
+  color: #fff;
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 16px;
+  margin: 0 16px;
+}
+
+.rightArrow {
+  margin-left: 8px;
+  filter: invert;
+}
+
+.languageSwitcher {
+  border: 1px solid #e5e7eb;
+  padding: 0 16px;
+  border-radius: 8px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

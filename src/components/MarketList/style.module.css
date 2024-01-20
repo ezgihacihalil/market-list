@@ -1,0 +1,96 @@
+.marketList {
+  margin-top: 96px;
+  overflow-x: auto;
+  max-width: 1088px;
+}
+
+@media (min-width: 640px) {
+  .marketList {
+    margin: 96px auto 0;
+  }
+}
+
+.container {
+  width: calc(160px * 5);
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .container {
+    width: calc(200px * 5);
+  }
+}
+
+.tableRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.smallText {
+  font-size: 9px;
+}
+
+.tableRow > div {
+  width: 160px;
+  min-width: 160px;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .tableRow > div {
+    width: 200px;
+    min-width: 200px;
+  }
+}
+
+.icon  {
+  height: 24px;
+  width: 24px;
+}
+
+.market {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .market {
+    margin-left: 16px;
+  }
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.rightArrow {
+  margin-left: 16px;
+}
+
+.error {
+  font-size: 18px;
+  color: #808080;
+  display: flex;
+  justify-content: center;
+}
+
+.inputWrapper {
+  width: 360px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .inputWrapper {
+    width: 640px;
+  }
+}
